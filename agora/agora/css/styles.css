@@ -1,0 +1,46 @@
+﻿
+
+/*-------  GLOBAL  -------*/
+body {
+	background: #0b0b0b;
+	background-image: url('../images/texture.jpg');
+	background-repeat: repeat;
+
+}
+
+img {
+	vertical-align:bottom;
+	border: 0px;
+}
+
+a:focus {
+    outline: 0px;
+}
+
+.container {
+	width: 980px;
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	margin-left: -490px;
+}
+
+.rollover1 span, .rollover2 span {
+		background-image: url('../images/zoom_icon.png');
+		background-repeat: no-repeat;
+		width: 330px;
+		height: 163px;
+		display: none;
+		position: absolute;
+}
+
+.rollover1 span {
+		left: 134px;
+		top: 170px;
+}
+
+.rollover2 span {
+		left: 518px;
+		top: 170px;
+}
+
